@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+::selection{
+    color: white;
+    background-color: black;
+}
+
+.header{
+    background-color: rgb(49, 109, 195);
+    height: 50px;
+}
+
+.logo ul li{
+    display: inline-block;
+    margin:0px 5px;
+    padding:8px 6px;
+}
+
+
+.logo ul{
+    margin-left: 8%;
+    position: absolute;
+    top: 1.5%;
+}
+
+.button ul li a{
+    text-decoration: none;
+    color: #427900;
+    background-color: white;
+    border: solid .5px black;
+    padding : 8px;
+    font-size: 11px;
+}
+
+.para{
+    color: white;
+    padding: 0 30%;
+    font-size: 15px;
+    position: absolute;
+    top: 1.9%;
+}
+
+.button ul li{
+    display: inline-block;
+}
+
+.button ul{
+    position: absolute;
+    top: 1.8%;
+    padding-right: 10%;
+    left:70%;
+}
+
+.head_nav{
+    height: 60px;
+}
+
+.head_nav img{
+    margin-left: 8%;
+   
+}
+
+.head_nav nav ul li{
+    display: inline-block;
+    
+}
+
+.head_nav nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    padding:8px 15px;
+    margin:15px 0px ;
+}
+
+.head_nav nav{
+    float: right;
+    position: absolute;
+    top: 66px;
+    left: 40%;
+}
+
+.line{
+    background-color: rgb(49, 109, 195);
+    margin: 10px 8%;
+    padding: 5px 1px;
+}
+
+.line center a{
+    text-decoration: none;
+    color: blue;
+}
+
+.date{
+    color: limegreen;
+}
+
+.da{
+    color: white;
+}
+
+center strong{
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: bolder;
+}
+
+.intro{
+    color: rgb(49, 109, 195);
+}
+
+.duction{
+    color: #427900;
+}
+
+.icon p{
+    display: inline-block;
+    margin: 0;
+    padding: 5px 12px 20px 12px;
+    vertical-align: 0.5em;
+    color: #427900;
+}
+
+.text{
+    margin: 0 15% 0 15%;
+    font-size: 15px;
+    color: grey;
+    line-height: 1.9;
+}
+
+.blue_line{
+    text-align: center;
+    align-self: center;
+    align-content: center;
+    color: white;
+    background-color:rgb(29, 78, 255) ;
+    padding: 8% 0 8% 0;
+}
+
+.blue_line table img{
+    height: 40px;
+}
+
+.blue_line table{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.blue_line table td{
+    padding: 0 2%;
+    width:300px;
+}
+
+h1{
+    font-size: 42px;
+    font-family: 'Merriweather', serif;
+    line-height: 2;
+}
+
+h2{
+    font-size: 14px;
+    font-family: 'Merriweather', serif;
+}
+
+.blue_line table tr td span{
+    font-size: 18px;
+    font-weight: bold;
+    color: #00ff00;
+}
+
+.doing table{
+    border-spacing: 30px;
+}
+
+.mm tr td{
+    padding: 0 auto;
+    width: 22em;
+    height: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 0 0 20px lightgray;
+    
+}
+
+.mm{
+    margin: 0 auto;
+}
+
+.mm tr{
+    height: 200px;
+}
+
+.mm p{
+    font-family: 'Merriweather', serif;
+    color: rgb(49, 109, 195);
+    font-weight: bolder;
+    text-align: center;
+}
+
+.mm tr td img{
+    margin: 0 auto;
+    height: 70px;
+    width: 70px;
+}
+
+.mm tr td div{
+    text-align: center;
+}
+
+.mission-p{
+    font-family: 'Merriweather', serif;
+    color: rgb(49, 109, 195);
+    font-size: 25px;
+    font-weight: bolder;
+    margin-left: 6%;
+    line-height: 1.5px;
+}
+
+.liner strong{
+    margin-left: 6%;
+    font-size: 32px;
+    font-weight: bolder;
+    line-height: 2px;
+}
+
+
+.mission span{
+    border: solid 1px lightgrey;
+    text-align: left;
+    margin: 25px 15px 10px 6%;
+    padding: 7px 12px 7px 12px;
+    min-width: 150px;
+    width: 38%;
+    display: inline-block;
+    background-color: whitesmoke;
+}
+
+.mission{
+    width: 58%;
+    margin-left: 5%;
+    display: inline-block;
+}
+
+.mission h3{
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    color: rgb(49, 109, 195);
+    padding: 0 5px 10px 0px;
+    margin: 0 auto;
+    
+}
+
+.mission-event{
+    background-color: white;
+}
+
+
+
+.events-p{
+    font-family: 'Merriweather', serif;
+    color: rgb(49, 109, 195);
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.event{
+    width: 30%;
+    display: inline-block;
+    padding: 0 10px 20px 10px;
+    position: absolute;
+    top: 393%;
+    line-height: 1.6;
+    font-size: 15px;
+    color: grey;
+}
+
+.event a{
+    text-decoration: none;
+}
+
+.event span p{
+    width: 25em;
+}
+
+
+.g-img{
+    width: 240px;
+}
+
+.f-one{
+    display: flex;
+    font-size: 15px;
+}
+
+#usefullinks {
+    margin-left: 8%;
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    line-height: 3;
+    color: white;
+}
+
+#contactlinks{
+    margin-left: 25%;
+    font-family: 'Merriweather', serif;
+    font-weight: bolder;
+    line-height: 3;
+    color: white;
+}
+
+#contactlinks img{
+    width: 30px;
+}
+
+#contactlinks li{
+    display: inline-block;
+}
+
+#address {
+    line-height: 1.5;
+    margin-top: 3%;
+    color: white;
+    opacity: 0.7;
+    margin-left: 5%;
+}
+
+.f-one{
+    background-color: #25272e;
+    height: 300px;
+    padding-top: 5%;
+    margin-top: 10%;
+}
+
+.f-two p{
+    margin-left: 5%;
+    font-size: 12px;
+    color: white;
+    padding-top: 1%;
+}
+
+.f-two{
+    height: 3em;
+    background-color: rgb(49, 109, 195);;
+}
+
+.btt img{
+    width: 30px;
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 1; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: lightgray; /* Set a background color */
+    color: gray; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 10px; /* Some padding */
+    border-radius: 50%; /* Rounded corners */
+    opacity: 0.4;
+}
