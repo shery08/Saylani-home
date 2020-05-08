@@ -259,6 +259,7 @@ h2{
 
 .mission-event{
     background-color: white;
+    display: flex;
 }
 
 
